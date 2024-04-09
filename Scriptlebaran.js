@@ -98,7 +98,7 @@ function ngetik2() {
         kalimatc.innerHTML = katangetik2;
         fotoakhir.style.transform="scale(0)";
         setTimeout(function(){fotoakhir.src = fotoakhir2.src;fotoakhir.style.transform="scale(1)";},300);
-        //setTimeout(kemunculan,1300);
+        setTimeout(kemunculan,200);
         setInterval(berjatuhan,200);
     },}).go();
   }
