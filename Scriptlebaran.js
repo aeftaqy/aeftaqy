@@ -98,14 +98,14 @@ function ngetik2() {
         kalimatc.innerHTML = katangetik2;
         fotoakhir.style.transform="scale(0)";
         setTimeout(function(){fotoakhir.src = fotoakhir2.src;fotoakhir.style.transform="scale(1)";},300);
-        setTimeout(kemunculan,200);
+        setTimeout(kemunculan,1300);
         setInterval(berjatuhan,200);
     },}).go();
   }
 
   function otomatis() {kalimatc.style.transform="scale(.3)";setTimeout(function(){kalimatc.style.transform="scale(1)";},250);} 
-  function kemunculan(){otomatis();kalimatc.innerHTML = ktbwh2;setTimeout(kemunculan2,200);} 
-  function kemunculan2(){otomatis();kalimatc.innerHTML = ktbwh3;setTimeout(kemunculan3,200);} 
-  function kemunculan3(){otomatis();kalimatc.innerHTML = katangetik2;setTimeout(kemunculan,200);}
+  function kemunculan(){otomatis();kalimatc.innerHTML = ktbwh2;setTimeout(kemunculan2,2000);} 
+  function kemunculan2(){otomatis();kalimatc.innerHTML = ktbwh3;setTimeout(kemunculan3,2000);} 
+  function kemunculan3(){otomatis();kalimatc.innerHTML = katangetik2;setTimeout(kemunculan,2000);}
   
        async function jawab(){await swals.fire('Kirim Dana nya, ya!');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
