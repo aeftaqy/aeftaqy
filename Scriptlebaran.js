@@ -99,7 +99,7 @@ function ngetik2() {
         setTimeout(function(){fotoakhir.src = fotoakhir2.src;fotoakhir.style.transform="scale(1)";},300);
         setTimeout(kemunculan,1300);
         setInterval(berjatuhan,200);
-        setTimeout(jawab,200);
+        setTimeout(jawab,1300);
     },}).go();
   }
 
