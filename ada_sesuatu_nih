@@ -1,0 +1,109 @@
+<html>
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5'
+  name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+<link href="https://htmlku.com/kamumau/style.css" rel="stylesheet" type="text/css" />
+
+<head>
+  <title>Script HTML buat Kamu</title>
+  <meta name="description" content="@feelthisray - Script HTML by feeldream.id">
+</head>
+
+<body>
+
+  <div id="bodyblur">
+    <!-- Wallpaper / Background --><img
+      src="https://awsimages.detik.net.id/community/media/visual/2023/02/09/ilustrasi-hari-raya-idul-fitri-2023_43.jpeg?w=650"
+      id="wallpaper" />
+  </div>
+
+  <div class="kumpulanstiker">
+    <!-- Stiker untuk Konten -->
+    <img
+      src="https://1.bp.blogspot.com/-7dXLY6pLEBc/XOzcb5xzt0I/AAAAAAAMjuo/GYKLTAzjyxw2RQ1v0Jv264uUx2ZP2wosgCLcBGAs/s1600/AS0005312_00.gif"
+      id="stiker1" />
+    <img src="https://cdn.kibrispdr.org/data/1791/nusa-dan-rara-kartun-5.gif" id="stiker2" />
+    <img
+      src="https://media.licdn.com/dms/image/D5622AQGO4AewmdyKLQ/feedshare-shrink_2048_1536/0/1684378077572?e=2147483647&v=beta&t=z6tlZ_btrVPtLmmsH0ID74vDIHNP8mOoeARVw_aebN0"
+      id="stiker3" />
+    <img src="https://i.pinimg.com/originals/80/0b/c4/800bc4a304ad60c6ff28de27b3e042ba.gif" id="stiker4" />
+    <img src="https://i.pinimg.com/originals/ff/4c/11/ff4c110836358f3027984c5d3d318ba9.gif" id="stiker5" />
+  </div>
+
+  <div id='Content'>
+
+    <div id="suratin" onClick="memulai();audio.play();">
+      <!-- Surat --><img src="https://rayyscoding.github.io/envelope.png" />
+    </div>
+    <p id="ket">Klik Suratnya!</p>
+
+    <div>
+      <!-- Foto Akhir -->
+      <img src="https://i.pinimg.com/originals/ff/4c/11/ff4c110836358f3027984c5d3d318ba9.gif" id="fotoakhir" />
+      <img src="https://feeldreams.github.io/emawh.gif" id="fotoakhir2" />
+    </div>
+    <div>
+      <blockquote id='bq'>
+        <p id="kalimat"></p>
+        <p id="kalimatc"></p>
+      </blockquote>
+    </div>
+
+    <!-- Tombol -->
+    <div id="Tombol">
+      <a id="By" onClick="fungsimau()">Mau</a>
+      <a id="Bn" onClick="btn='Bn';fungsibaru(btn)">Gamau!</a>
+    </div>
+
+    <!-- Pesan Ditolak -->
+    <div class="sembunyi">
+      <img id="stikerditolak" src="https://feeldreams.github.io/weee.gif" />
+      <span id="kataditolak">Harus Mau yaa 😝</span>
+    </div>
+
+  </div>
+
+  <script src="https://raw.githack.com/aeftaqy/aeftaqy/main/Scriptlebaran.js"></script>
+
+  <script type="text/javascript">
+    async function pertama() {
+      audio = new Audio('https://raw.githack.com/aeftaqy/aeftaqy/main/idul-fitri-official-lyric-video-shorts.mp3'); setTimeout(showDiv, 100);
+    } pertama();
+
+
+    async function pesan() {
+      await swalst.fire({
+        title: 'Alooo kamuuu! ><',
+        imageUrl: '' + stiker1.src,
+      });
+      await swalst.fire({
+        title: 'Gimana Puasanya? Gak<br>Mokel, kan? 🫣 wkwk',
+        imageUrl: '' + stiker2.src,
+      });
+      await swalst.fire({
+        title: 'Bentar lagi<br>Lebaran Hehehe.. 😋',
+        imageUrl: '' + stiker3.src,
+      });
+      await swalst.fire({
+        title: 'Oh ya, Aku Mau Ngomong<br>Ke Kamu Sesuatu Nih 🫣',
+        imageUrl: '' + stiker4.src,
+      });
+
+      katangetik = "<b class='usefont2'>Jangan Lupa Yah<br>Ngasih THR Buat Aku? 😆</b>";
+      katangetik2 = "<b class='usefont'>Makasii, udah Mau<br>Btw, bisa di transfer kok 😆🙏<br><br>Ditunggu yaa wkwk 🫣😋😝<br></b>";
+      ktbwh2 = "<b class='usefont'>Chat Aja Ke WA hehe</b>";
+      ktbwh3 = "<b class='usefont'>Nanti Aku Kirim No dana nya wk 🫶</b>";
+
+      kataditerima = "<b class='usefont2'>Yeaayy! 😍</b>";
+
+      pesanwhatsapp = "<b class='usefont'>Mana No Dana nya, Sini >< Wk </b>";
+      setTimeout(kpemb, 300);
+    }
+  </script>
+</body>
+
+</html>
