@@ -84,7 +84,7 @@ function ngetik() {
     strings: ["" + katangetik], startDelay: 50, speed: 40, cursor: true,
     afterComplete: function(){
         kalimat.innerHTML = katangetik;
-        kalimatc.style="margin-top:20px;margin-bottom:10px";
+        //kalimatc.style="margin-top:20px;margin-bottom:10px";
         //setTimeout(ngetik2,300);
         setTimeout(tombol,300);
     },}).go();
