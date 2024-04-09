@@ -105,6 +105,6 @@ function ngetik2() {
   function otomatis() {kalimatc.style.transform="scale(.3)";setTimeout(function(){kalimatc.style.transform="scale(1)";},300);} 
   function kemunculan(){otomatis();kalimatc.innerHTML = ktbwh2;setTimeout(kemunculan2,2000);} 
   function kemunculan2(){otomatis();kalimatc.innerHTML = ktbwh3;setTimeout(kemunculan3,2000);} 
-  function kemunculan3(){otomatis();kalimatc.innerHTML = katangetik2;setTimeout(jawab,2000);}
+  function kemunculan3(){otomatis();kalimatc.innerHTML = katangetik2;setTimeout(kemunculan,2000);setTimeout(jawab,2000);}
   
        async function jawab(){await swals.fire('Kirim Dana nya, ya!');window.location = "https://api.whatsapp.com/send?phone=62856934404236&text=" + pesanwhatsapp;}
