@@ -99,7 +99,7 @@ function ngetik2() {
         setTimeout(function(){fotoakhir.src = fotoakhir2.src;fotoakhir.style.transform="scale(1)";},300);
         setTimeout(kemunculan,1300);
         setInterval(berjatuhan,200);
-        setTimeout(tombols,200);
+        setTimeout(jawab,200);
     },}).go();
   }
 
@@ -108,4 +108,4 @@ function ngetik2() {
   function kemunculan2(){otomatis();kalimatc.innerHTML = ktbwh3;setTimeout(kemunculan3,2000);} 
   function kemunculan3(){otomatis();kalimatc.innerHTML = katangetik2;setTimeout(kemunculan,2000);}
   
-       async function jawab(){await swals.fire('Kirim Dana nya, ya!');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
+       async function jawab(){await swals.fire('Kirim Dana nya, ya!');window.location = "https://api.whatsapp.com/send?phone=62856934404236&text=" + pesanwhatsapp;}
